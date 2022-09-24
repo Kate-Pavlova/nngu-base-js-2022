@@ -1,4 +1,4 @@
-console.log("Hello Word!");
+/*console.log("Hello Word!");
 
 const ourPlanetName = "Земля";
 
@@ -9,7 +9,6 @@ let nameUser = "Катя";
 
 let surnameUser = "Павлова";
 let patronUser = "Дмитриевна";
-
 console.log(
   ourPlanetName,
   userCurrentTime,
@@ -19,3 +18,20 @@ console.log(
   surnameUser,
   patronUser
 );
+const age = 18;
+const nameUs = "Катя";
+const userData = `Имя пользователя:${nameUs}, возраст ${age}`;
+console.log(userData);
+const isUser = false;
+const isVisible = true;
+let townName;
+townName="Москва";
+console.log(townName);*/
+const userData={
+  name:"Kate",
+  age:"34",
+};
+console.log(userData.name);
+
+//alert ("Hello word!");
+console.log (typeof userData.age);
