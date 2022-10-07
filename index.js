@@ -26,7 +26,7 @@ const isUser = false;
 const isVisible = true;
 let townName;
 townName="Москва";
-console.log(townName);*/
+console.log(townName);
 const userData={
   name:"Kate",
   age:"34",
@@ -34,4 +34,6 @@ const userData={
 console.log(userData.name);
 
 //alert ("Hello word!");
-console.log (typeof userData.age);
+console.log (typeof userData.age);*/
+
+

@@ -1,0 +1,21 @@
+console.log("кот" > "код"); /*true Т дальше чем Д*/
+console.log("2" + 2 * "2");/*24 к строке 2 приклеивается произведение=4 */
+console.log(undefined == null);/*true ничего равно ничему*/
+console.log(undefined != null);/*false потому что разные типы*/
+console.log(null == 0);/*false ничего не равно 0*/
+console.log(2 > "3");/*false число и строку не сравнить*/
+console.log(null - false + true);/*1 ничего-0+1 получится 1*/
+console.log(1 / "l");/*NaN число деленное на строку не определено*/
+console.log("2" * "3");/*6  распознает как числа и перемножает*/
+console.log(4 + 5 + "O");/*9O результат сложения 4 и 5 и конкратинация с буквойО*/
+console.log("l" + 4 + 5);/*l45 строка конкратинируется с числами 4 и 5*/
+console.log("4" - 2);/*2 распознает как математическое действие, т.к. минус*/
+console.log("4" - "4x");/*NaN из строки нельзя вычесть строку*/
+console.log("23" == 23);/*true*/
+console.log(null == false);/*false ничего не равно 0*/
+console.log(" -4 "/ 0 + 1);/*-Infinity деление на 0 дает бесконечность*/
+console.log(null + 1);/*1 к нечему прибавить 1 будет 1*/
+console.log(undefined + null);/*NaN*/
+console.log(1 === "1");/*false число не равно строке*/
+console.log("2" > 10);/*false хз почему*/
+console.log(NaN == undefined);/*false хз*/
