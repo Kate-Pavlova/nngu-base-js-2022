@@ -131,8 +131,8 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 console.log(result);
-*/
 const N = 5;
 for (let i = 0; i <= N; i++) {
     console.log("Строка")
-}
+}*/
+
