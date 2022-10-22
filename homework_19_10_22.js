@@ -97,7 +97,7 @@ function zad7 (a){
     console.log(arrYear);
    
    \\задача №12,13
-    */
+  
    function isEven(b) {
     if (b%2 == 0) {
         return b;
@@ -112,4 +112,50 @@ function zad7 (a){
      } ;
      
   console.log(arr2);
-    
+  
+
+   const getDigitsSum=(num)=> {
+    const str = `${num}`;
+    let result = 0;
+    for (let i=0; i<str.length; i++) {
+      result += +str [i];
+    };
+    return result;
+   };
+   
+
+   console.log (getDigitsSum(123));
+   
+
+const isEven= (num) => {
+  if (num %2===0) {
+    return true
+  };
+  return false;
+};
+const filterArr = (arr)=> {
+  const result = []
+  for (let i=0; i< arr.length; i++){
+    if (isEven(arr[i])) {
+      result.push(arr[i]);
+    };
+  };
+};
+console.log(filterArr([1,2,3,4,5,6,7,8]));
+*/
+const getDigitsSum=(num)=> {
+  const str = `${num}`;
+  let result = 0;
+  for (let i=0; i<str.length; i++) {
+    result += +str [i];
+  };
+  return result;
+ };
+const lessNine = (num)=> {
+  console.log(`Функция lessNine с параметром ${num}`);
+  if (getDigitsSum (num)>9) {
+return lessNine(getDigitsSum (num));
+  };
+  return getDigitsSum (num)
+};
+console.log(lessNine(156555));
