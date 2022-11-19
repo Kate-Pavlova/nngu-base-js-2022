@@ -54,7 +54,7 @@ let town = {
   town.setAnyValue("name", "London");
   town.setAnyValue("country", "UK");
   town.getName();
-  console.log(town);*/
+  console.log(town);
 
   let town2 = {
     name: "Saransk",
@@ -70,3 +70,31 @@ bound("name","Paris");
 bound("country", "France");
 console.log(town2);
     
+
+const cubeValue=()=>{
+  const height=10;
+  return(b,c)=>{
+    return height*b*c;
+  };
+};
+const first= cubeValue();
+console.log(first(10,10));
+
+*/
+
+const cubeValue=(a,b,c)=> a*b*c;
+console.log(cubeValue(1,2,3));
+const cubeCaryValue=(a)=>{
+  return (b)=>{
+    return (c)=>{
+      return a*b*c;
+    };
+  };
+};
+console.log(cubeCaryValue(1)(2)(3));
+const twoArgs=cubeCaryValue(1)(3);
+console.log(twoArgs(3));
+console.log(twoArgs(4));
+console.log(twoArgs(5));
+
+
